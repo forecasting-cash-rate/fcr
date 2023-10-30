@@ -6,7 +6,7 @@ Date: 2023-10-30
 Authors@R: person("Tomasz", "Woźniak", , "wozniak.tom@pm.me", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2212-2378"))
 Maintainer: Tomasz Woźniak <wozniak.tom@pm.me>
-Description: Forecasting Cash Rate monthly using publicly available data and open-source software, and facilitating reproducible workflows
+Description: Forecasting Cash Rate monthly using publicly available data and open-source software, and facilitating reproducible workflows.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

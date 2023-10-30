@@ -1,0 +1,27 @@
+#' @title An 8-variable system of Australian daily interest rate  for the period from 3 January 1995 to 29 September 2023
+#'
+#' @description Australian interest rates
+#'
+#' @usage data(interest_rates_oz)
+#'
+#' @format A matrix and a \code{xts} object with time series of 7235 observations on 8 variables:
+#' \describe{
+#'   \item{cash_rate}{cash rate target}
+#'   \item{by1m}{Bank Accepted Bills/Negotiable Certificates of Deposit-1 month}
+#'   \item{by3m}{Bank Accepted Bills/Negotiable Certificates of Deposit-3 months}
+#'   \item{by6m}{Bank Accepted Bills/Negotiable Certificates of Deposit-6 months}
+#'   \item{by2y}{Australian Government 2 year bond}
+#'   \item{by3y}{Australian Government 3 year bond}
+#'   \item{by5y}{Australian Government 5 year bond}
+#'   \item{by10y}{Australian Government 10 year bond}
+#' }
+#'
+#' @source
+#' RBA Table F1 INTEREST RATES AND YIELDS – MONEY MARKET \url{http://www.rba.gov.au/statistics/tables/xls/f01d.xls}
+#'
+#' Yield Broker accessed via the RBA \url{https://www.yieldbroker.com/}
+#'
+#' @examples
+#' data(interest_rates_oz)   # upload the data
+#' plot(interest_rates_oz)   # plot the data
+"interest_rates_oz"
