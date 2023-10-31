@@ -1,6 +1,6 @@
-#' @title An 8-variable system of Australian daily interest rate  for the period from 3 January 1995 to 29 September 2023
+#' @title Australian daily interest rates
 #'
-#' @description Australian interest rates
+#' @description An 8-variable system of Australian daily interest rate for the period from 3 January 1995 to 29 September 2023
 #'
 #' @usage data(interest_rates_oz)
 #'

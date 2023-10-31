@@ -3,7 +3,7 @@
 \docType{data}
 \name{interest_rates_oz}
 \alias{interest_rates_oz}
-\title{An 8-variable system of Australian daily interest rate  for the period from 3 January 1995 to 29 September 2023}
+\title{Australian daily interest rates}
 \format{
 A matrix and a \code{xts} object with time series of 7235 observations on 8 variables:
 \describe{
@@ -26,7 +26,7 @@ Yield Broker accessed via the RBA \url{https://www.yieldbroker.com/}
 data(interest_rates_oz)
 }
 \description{
-Australian interest rates
+An 8-variable system of Australian daily interest rate for the period from 3 January 1995 to 29 September 2023
 }
 \examples{
 data(interest_rates_oz)   # upload the data
